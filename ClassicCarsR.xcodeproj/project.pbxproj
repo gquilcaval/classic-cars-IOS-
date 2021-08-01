@@ -3,18 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5210714829757707A3F496C0 /* Pods_ClassicCarsR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E974C8E93D6298093515B2E /* Pods_ClassicCarsR.framework */; };
+		667522152532178400C8347D /* IngreseCorreoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667522142532178400C8347D /* IngreseCorreoViewController.swift */; };
+		6675221925322E0300C8347D /* IngreseNombreCompletoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6675221825322E0300C8347D /* IngreseNombreCompletoViewController.swift */; };
+		6675221B253255AC00C8347D /* IngreseContrasenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6675221A253255AC00C8347D /* IngreseContrasenaViewController.swift */; };
+		66868A6C25326E2000B7A6EE /* IngresaNacimientoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66868A6B25326E2000B7A6EE /* IngresaNacimientoViewController.swift */; };
+		66868A70253272C500B7A6EE /* IngresaAdicionalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66868A6F253272C500B7A6EE /* IngresaAdicionalesViewController.swift */; };
 		66937054253165B700A7F8C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66937053253165B700A7F8C4 /* AppDelegate.swift */; };
 		66937056253165B700A7F8C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66937055253165B700A7F8C4 /* ViewController.swift */; };
 		66937059253165B700A7F8C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66937057253165B700A7F8C4 /* Main.storyboard */; };
 		6693705B253165B900A7F8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6693705A253165B900A7F8C4 /* Assets.xcassets */; };
 		6693705E253165B900A7F8C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6693705C253165B900A7F8C4 /* LaunchScreen.storyboard */; };
+		CE12B5EA2551FF8D003438E2 /* Fotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12B5E92551FF8D003438E2 /* Fotos.swift */; };
+		CE76C1CA254FC228006E4C9E /* ViewControllerLista.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76C1C9254FC228006E4C9E /* ViewControllerLista.swift */; };
+		CEB30B24254F817E008DA679 /* ProductoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB30B23254F817E008DA679 /* ProductoViewCell.swift */; };
+		CECC1719256636D70024088D /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC1718256636D70024088D /* PerfilViewController.swift */; };
+		CECC171B25664DB60024088D /* FavoritosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC171A25664DB60024088D /* FavoritosViewController.swift */; };
+		CECC171D25664DFA0024088D /* FavoritosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC171C25664DFA0024088D /* FavoritosCollectionViewCell.swift */; };
+		D162EC902583FC5A00BBB986 /* DetalleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D162EC8F2583FC5A00BBB986 /* DetalleVC.swift */; };
+		D163E590258280D50090A224 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = D163E58E258280D40090A224 /* iCarousel.m */; };
+		D163E5A12582A5510090A224 /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = D163E5A02582A5510090A224 /* SkeletonView */; };
+		D18C2EA025805FD700994498 /* Pedido.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18C2E9F25805FD700994498 /* Pedido.swift */; };
+		D18C2EA32580622600994498 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18C2EA22580622600994498 /* Producto.swift */; };
+		D1DB5E102575CDCD00B30107 /* RegistroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DB5E0F2575CDCD00B30107 /* RegistroVC.swift */; };
+		D1F9FCE0256A464400A8D315 /* Auto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F9FCDF256A464400A8D315 /* Auto.swift */; };
+		D1FF25542573113F001B12BD /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FF25532573113E001B12BD /* CoreDataManager.swift */; };
+		D1FF255D25731733001B12BD /* ClassicBD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1FF255B25731733001B12BD /* ClassicBD.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E974C8E93D6298093515B2E /* Pods_ClassicCarsR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClassicCarsR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FBBDF1453CFD5053BA6CED /* Pods-ClassicCarsR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassicCarsR.debug.xcconfig"; path = "Target Support Files/Pods-ClassicCarsR/Pods-ClassicCarsR.debug.xcconfig"; sourceTree = "<group>"; };
+		667522142532178400C8347D /* IngreseCorreoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngreseCorreoViewController.swift; sourceTree = "<group>"; };
+		6675221825322E0300C8347D /* IngreseNombreCompletoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngreseNombreCompletoViewController.swift; sourceTree = "<group>"; };
+		6675221A253255AC00C8347D /* IngreseContrasenaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngreseContrasenaViewController.swift; sourceTree = "<group>"; };
+		66868A6B25326E2000B7A6EE /* IngresaNacimientoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngresaNacimientoViewController.swift; sourceTree = "<group>"; };
+		66868A6F253272C500B7A6EE /* IngresaAdicionalesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngresaAdicionalesViewController.swift; sourceTree = "<group>"; };
 		66937050253165B700A7F8C4 /* ClassicCarsR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassicCarsR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66937053253165B700A7F8C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66937055253165B700A7F8C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +50,23 @@
 		6693705A253165B900A7F8C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6693705D253165B900A7F8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6693705F253165B900A7F8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92CC6B11572338428402EBE5 /* Pods-ClassicCarsR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassicCarsR.release.xcconfig"; path = "Target Support Files/Pods-ClassicCarsR/Pods-ClassicCarsR.release.xcconfig"; sourceTree = "<group>"; };
+		CE12B5E92551FF8D003438E2 /* Fotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fotos.swift; sourceTree = "<group>"; };
+		CE76C1C9254FC228006E4C9E /* ViewControllerLista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLista.swift; sourceTree = "<group>"; };
+		CEB30B23254F817E008DA679 /* ProductoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoViewCell.swift; sourceTree = "<group>"; };
+		CECC1718256636D70024088D /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		CECC171A25664DB60024088D /* FavoritosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosViewController.swift; sourceTree = "<group>"; };
+		CECC171C25664DFA0024088D /* FavoritosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosCollectionViewCell.swift; sourceTree = "<group>"; };
+		D162EC8F2583FC5A00BBB986 /* DetalleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleVC.swift; sourceTree = "<group>"; };
+		D163E58D258280D20090A224 /* ClassicCarsR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClassicCarsR-Bridging-Header.h"; sourceTree = "<group>"; };
+		D163E58E258280D40090A224 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		D163E58F258280D40090A224 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		D18C2E9F25805FD700994498 /* Pedido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedido.swift; sourceTree = "<group>"; };
+		D18C2EA22580622600994498 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		D1DB5E0F2575CDCD00B30107 /* RegistroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroVC.swift; sourceTree = "<group>"; };
+		D1F9FCDF256A464400A8D315 /* Auto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auto.swift; sourceTree = "<group>"; };
+		D1FF25532573113E001B12BD /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		D1FF255C25731733001B12BD /* ClassicBD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClassicBD.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +74,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D163E5A12582A5510090A224 /* SkeletonView in Frameworks */,
+				5210714829757707A3F496C0 /* Pods_ClassicCarsR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ADC6E68AD440C601287E1F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E974C8E93D6298093515B2E /* Pods_ClassicCarsR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CF7A432AC07C4F5A4AC0C2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58FBBDF1453CFD5053BA6CED /* Pods-ClassicCarsR.debug.xcconfig */,
+				92CC6B11572338428402EBE5 /* Pods-ClassicCarsR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		66937047253165B700A7F8C4 = {
 			isa = PBXGroup;
 			children = (
 				66937052253165B700A7F8C4 /* ClassicCarsR */,
 				66937051253165B700A7F8C4 /* Products */,
+				1CF7A432AC07C4F5A4AC0C2A /* Pods */,
+				1ADC6E68AD440C601287E1F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +120,33 @@
 		66937052253165B700A7F8C4 /* ClassicCarsR */ = {
 			isa = PBXGroup;
 			children = (
+				D163E58F258280D40090A224 /* iCarousel.h */,
+				D163E58E258280D40090A224 /* iCarousel.m */,
 				66937053253165B700A7F8C4 /* AppDelegate.swift */,
 				66937055253165B700A7F8C4 /* ViewController.swift */,
 				66937057253165B700A7F8C4 /* Main.storyboard */,
+				CE12B5E92551FF8D003438E2 /* Fotos.swift */,
+				CEB30B23254F817E008DA679 /* ProductoViewCell.swift */,
+				CE76C1C9254FC228006E4C9E /* ViewControllerLista.swift */,
 				6693705A253165B900A7F8C4 /* Assets.xcassets */,
 				6693705C253165B900A7F8C4 /* LaunchScreen.storyboard */,
 				6693705F253165B900A7F8C4 /* Info.plist */,
+				667522142532178400C8347D /* IngreseCorreoViewController.swift */,
+				6675221825322E0300C8347D /* IngreseNombreCompletoViewController.swift */,
+				6675221A253255AC00C8347D /* IngreseContrasenaViewController.swift */,
+				66868A6B25326E2000B7A6EE /* IngresaNacimientoViewController.swift */,
+				66868A6F253272C500B7A6EE /* IngresaAdicionalesViewController.swift */,
+				CECC1718256636D70024088D /* PerfilViewController.swift */,
+				CECC171A25664DB60024088D /* FavoritosViewController.swift */,
+				CECC171C25664DFA0024088D /* FavoritosCollectionViewCell.swift */,
+				D1F9FCDF256A464400A8D315 /* Auto.swift */,
+				D1FF25532573113E001B12BD /* CoreDataManager.swift */,
+				D1FF255B25731733001B12BD /* ClassicBD.xcdatamodeld */,
+				D1DB5E0F2575CDCD00B30107 /* RegistroVC.swift */,
+				D18C2E9F25805FD700994498 /* Pedido.swift */,
+				D18C2EA22580622600994498 /* Producto.swift */,
+				D163E58D258280D20090A224 /* ClassicCarsR-Bridging-Header.h */,
+				D162EC8F2583FC5A00BBB986 /* DetalleVC.swift */,
 			);
 			path = ClassicCarsR;
 			sourceTree = "<group>";
@@ -71,15 +158,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66937062253165B900A7F8C4 /* Build configuration list for PBXNativeTarget "ClassicCarsR" */;
 			buildPhases = (
+				4D29297E58798E1641B870A2 /* [CP] Check Pods Manifest.lock */,
 				6693704C253165B700A7F8C4 /* Sources */,
 				6693704D253165B700A7F8C4 /* Frameworks */,
 				6693704E253165B700A7F8C4 /* Resources */,
+				1E5645443618CBC2A4B2C238 /* [CP] Embed Pods Frameworks */,
+				D031FA73F262BF2C7D075C44 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ClassicCarsR;
+			packageProductDependencies = (
+				D163E5A02582A5510090A224 /* SkeletonView */,
+			);
 			productName = ClassicCarsR;
 			productReference = 66937050253165B700A7F8C4 /* ClassicCarsR.app */;
 			productType = "com.apple.product-type.application";
@@ -96,6 +189,7 @@
 				TargetAttributes = {
 					6693704F253165B700A7F8C4 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1210;
 					};
 				};
 			};
@@ -108,6 +202,9 @@
 				Base,
 			);
 			mainGroup = 66937047253165B700A7F8C4;
+			packageReferences = (
+				D163E59F2582A5510090A224 /* XCRemoteSwiftPackageReference "SkeletonView" */,
+			);
 			productRefGroup = 66937051253165B700A7F8C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,13 +227,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E5645443618CBC2A4B2C238 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClassicCarsR/Pods-ClassicCarsR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClassicCarsR/Pods-ClassicCarsR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClassicCarsR/Pods-ClassicCarsR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D29297E58798E1641B870A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClassicCarsR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D031FA73F262BF2C7D075C44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClassicCarsR/Pods-ClassicCarsR-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClassicCarsR/Pods-ClassicCarsR-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClassicCarsR/Pods-ClassicCarsR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6693704C253165B700A7F8C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				66937056253165B700A7F8C4 /* ViewController.swift in Sources */,
+				D163E590258280D50090A224 /* iCarousel.m in Sources */,
+				CE76C1CA254FC228006E4C9E /* ViewControllerLista.swift in Sources */,
+				667522152532178400C8347D /* IngreseCorreoViewController.swift in Sources */,
+				CEB30B24254F817E008DA679 /* ProductoViewCell.swift in Sources */,
+				D1F9FCE0256A464400A8D315 /* Auto.swift in Sources */,
+				D1DB5E102575CDCD00B30107 /* RegistroVC.swift in Sources */,
+				D18C2EA025805FD700994498 /* Pedido.swift in Sources */,
+				CECC171D25664DFA0024088D /* FavoritosCollectionViewCell.swift in Sources */,
+				D1FF255D25731733001B12BD /* ClassicBD.xcdatamodeld in Sources */,
+				6675221925322E0300C8347D /* IngreseNombreCompletoViewController.swift in Sources */,
+				CE12B5EA2551FF8D003438E2 /* Fotos.swift in Sources */,
+				CECC1719256636D70024088D /* PerfilViewController.swift in Sources */,
+				D162EC902583FC5A00BBB986 /* DetalleVC.swift in Sources */,
+				66868A70253272C500B7A6EE /* IngresaAdicionalesViewController.swift in Sources */,
+				CECC171B25664DB60024088D /* FavoritosViewController.swift in Sources */,
+				66868A6C25326E2000B7A6EE /* IngresaNacimientoViewController.swift in Sources */,
 				66937054253165B700A7F8C4 /* AppDelegate.swift in Sources */,
+				D1FF25542573113F001B12BD /* CoreDataManager.swift in Sources */,
+				D18C2EA32580622600994498 /* Producto.swift in Sources */,
+				6675221B253255AC00C8347D /* IngreseContrasenaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +455,10 @@
 		};
 		66937063253165B900A7F8C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FBBDF1453CFD5053BA6CED /* Pods-ClassicCarsR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ClassicCarsR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -290,6 +467,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = example.com.pe.ClassicCarsR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ClassicCarsR/ClassicCarsR-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,8 +476,10 @@
 		};
 		66937064253165B900A7F8C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CC6B11572338428402EBE5 /* Pods-ClassicCarsR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ClassicCarsR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,6 +488,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = example.com.pe.ClassicCarsR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ClassicCarsR/ClassicCarsR-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -334,6 +516,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D163E59F2582A5510090A224 /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D163E5A02582A5510090A224 /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D163E59F2582A5510090A224 /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		D1FF255B25731733001B12BD /* ClassicBD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D1FF255C25731733001B12BD /* ClassicBD.xcdatamodel */,
+			);
+			currentVersion = D1FF255C25731733001B12BD /* ClassicBD.xcdatamodel */;
+			path = ClassicBD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 66937048253165B700A7F8C4 /* Project object */;
 }
